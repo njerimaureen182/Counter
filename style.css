@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(16,29,44,.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.counter-box{
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid rgba(255,245,103,.8);
+    padding: 1.5rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px 10px rgba(16,29,44.8);
+}
+.counter{
+    font-size: 6rem;
+}
+.btn{
+    background: rgba(255,245,103,.8);
+    color: rgba(16,29,44,1);
+    border: 3px solid rgba(16,29,44,.8);
+    font-size: 1.5rem;
+    border-radius: 25%;
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    margin: .5rem 1rem;
+    font-weight: 400;
+    box-shadow: 3px 3px rgba(16,29,44,.8);
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background: rgba(198,153,99,.8);
+}
+.btn:active{
+    box-shadow: none;
+}
